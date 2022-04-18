@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>GameStudio</title>
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <a href="/" class="logo">Game<span class="logo__inner">Studio</span></a>
+    </header>
+
+    <main>
+
+      <section class="hero">
+        <h1 class="hero__title">Найкращі відеоігри<br> для вас</h1>
+      </section>
+
+      <section class="games">
+        <h2 class="section-title">Виберіть свою гру</h2>
+
+        <div class="games__list">
+
+          <a href="https://www.minecraft.net/en-us" target="_blank" class="game">
+            <img src="img/minecraft.jpeg" alt="Minecraft" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Minecraft</h3>
+              <p class="game__desc">Досліджуйте та будуйте безкінечні світи.</p>
+            </div>
+          </a>
+
+          <a href="https://www.seaofthieves.com/ru" target="_blank" class="game">
+            <img src="img/sea-of-thieves.jpg" alt="Sea of Thieves" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Sea of Thieves</h3>
+              <p class="game__desc">Настав час шукати скарби.</p>
+            </div>
+          </a>
+
+          <a href="https://www.scrapmechanic.com/" target="_blank" class="game">
+            <img src="img/scrap-mechanic.jpg" alt="Scrap Mechanic" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Scrap Mechanic</h3>
+              <p class="game__desc">Побудуй складні механізми, щоб вижити в небезпечному світі.</p>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/" target="_blank" class="game">
+            <img src="img/civilization.jpg" alt="Sid Meier’s Civilization VI" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Sid Meier’s Civilization VI</h3>
+              <p class="game__desc">Стань лідером й побудуй свою країну.</p>
+            </div>
+          </a>
+
+          <a href="https://www.kingdomthegame.com/" target="_blank" class="game">
+            <img src="img/kingdom.png" alt="Kingdom Two Crowns" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">Kingdom Two Crowns</h3>
+              <p class="game__desc">Грайте за короля й захищайте свої землі.</p>
+            </div>
+          </a>
+
+          <a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/" target="_blank" class="game">
+            <img src="img/ark.jpg" alt="ARK Survival Evolved" class="game__img">
+            <div class="game__info">
+              <h3 class="game__title">ARK Survival Evolved</h3>
+              <p class="game__desc">Чи зможеш ти вижити у світі повному динозаврів?</p>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="contact-us">
+        <h2 class="section-title">Зв'яжіться з нами</h2>
+
+        <form class="form">
+
+          <div class="form__field">
+            <label for="name" class="form__label">Ім'я</label>
+            <input type="text" class="form__input" id="name" autocomplete="off" required>
+          </div>
+
+          <div lass="form__field">
+            <label for="phone" class="form__label">Телефон</label>
+            <input type="tel" class="form__input" id="phone" autocomplete="off" required>
+          </div>
+          
+          <div class="form__field">
+            <label for="email" class="form__label">E-mail</label>
+            <input type="email" class="form__input" id="email" autocomplete="off" required>
+          </div>
+
+          <div class="form__field">
+            <label for="comment" class="form__label">Коментарій</label>
+            <textarea class="form__input" id="comment" autocomplete="off" placeholder="Напишіть свій коментарій" rows="5"></textarea>
+          </div>
+
+          <button class="form__submit" type="submit">Надіслати</button>
+
+        </form>
+      </section>
+      
+    </main>
+
+    <footer class="footer">
+      <a href="/" class="logo">Game<span class="logo__inner">Studio</span></a>
+      <p class="footer__address">м. Київ, проспект Лесі Українки, 26</p>
+      <p class="footer__email">info@example.com</p>
+      <p class="footer__phone">+38 099 111 11 11</p>
+    </footer>
+
+  </div>
+</body>
+</html>
